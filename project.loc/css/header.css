@@ -1,0 +1,48 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+.page-wrapper{
+    width: 900px;
+    height: 700px;
+    background-color: black;
+    border: 1px black solid;
+}
+
+.order-items{
+    display: flex;
+}
+
+
+.main-logo{
+    color: white;
+    justify-content:left;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.header-photo{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.photo-header{
+margin-left: 500px;
+}
+
+.border-line{
+    margin-top: 15px;
+    height: 5px;
+    width: 900px;
+    background-color: #ADFF00
+}
+
+
+body {
+    background: #000;
+    
+  }
+
+

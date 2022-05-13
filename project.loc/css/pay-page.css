@@ -1,0 +1,188 @@
+
+body{
+    margin: 0%;
+    display: grid;
+    place-items: center;
+}
+
+main{
+    display: flex;
+}
+
+.number{
+    width: 300px;
+    color: #ADFF00;
+    border: none;
+    border-bottom: 5px solid #ADFF00;
+    padding: 15px 15px 15px 0;
+    outline: none;
+    background-color: black;
+    margin-top: 50px;
+}
+
+.second-label{
+    text-transform: capitalize;
+    position: absolute;
+    top: 0%;
+    left:0%;
+    transform: translateY(1080%);
+    color: #ADFF00;
+    font-size: 14px;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+
+.number:focus + .second-label,
+.number:not(:placeholder-shown) +
+.second-label{
+    transform: translateY(130px);
+    font-size: 10px;
+    color: #ADFF00;
+}
+
+.number:focus{
+    border-bottom-color:#ADFF00
+}
+
+
+.main-group{
+    position: relative;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 400px;
+}
+
+.first-name{
+    width: 300px;
+    color: #ADFF00;
+    border: none;
+    border-bottom: 5px solid #ADFF00;
+    padding: 15px 15px 15px 0;
+    outline: none;
+    background-color: black;
+    margin-top: 50px;
+}
+
+.first-label{
+    text-transform: capitalize;
+    position: absolute;
+    top: 50%;
+    left:0;
+    transform: translateY(-170%);
+    color: #ADFF00;
+    font-size: 14px;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+
+.first-name:focus + .first-label,
+.first-name:not(:placeholder-shown) +
+.first-label{
+    transform: translateY(-70px);
+    font-size: 10px;
+    color: #ADFF00;
+}
+
+.first-name:focus{
+    border-bottom-color:#ADFF00
+}
+
+
+
+.burger-photo{
+    width: 150px;
+    height: 130px;
+}
+
+.border-line-main{
+    margin-top: 200px;
+    height: 5px;
+    width: 400px;
+    background-color: #ADFF00;
+    transform:rotate(90deg);
+}
+
+.our-order{
+    width: 450px;
+    height: 265px;
+    display:grid;
+    margin-top: 60px;
+}
+
+
+.total{
+    color: white;
+    font-size: 30px;
+}
+
+.name-burg{
+    color: white;
+    margin-right: 10px;
+}
+
+.x{
+    color: white;
+    margin-right: 10px;
+}
+
+.order-sum{
+    color: white;
+    margin-right: 10px;
+}
+
+.line{
+    color: white;
+    margin-right: 10px;
+}
+
+.price{
+    color: white;
+    margin-right: 10px;
+}
+
+.rub{
+    color: white;
+}
+
+.line-border{
+    height: 5px;
+    width: 150px;
+    background-color: #ADFF00;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.total-sum{
+    color: white;
+    font-size: 22px;
+    display: flex;
+    
+}
+
+.order-part{
+    display: flex;
+    font-size: 18px;
+}
+
+.total-rub{
+    color: white;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.main-button{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: 2px #ADFF00 solid;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.button-pay{
+    margin-top: 50px;
+}
